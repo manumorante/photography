@@ -1,0 +1,54 @@
+// Photo list
+
+@import "../libs/mm-breakpoints";
+@import "../libs/mixins";
+@import "../vars";
+
+.article-list{
+  display: block;
+  width: 100%;
+  font-size: 0;
+
+  article.photo{
+    @include inline-block;
+    width: 100%;
+    height: auto;
+    opacity: .8;
+    @include vendor(transition, all .5s);
+
+    &:hover{
+      opacity: 1;
+    }
+
+    h3{
+      padding: 8% 10% 20% 10%;
+    }
+
+    img{
+      width: 100%;
+    }
+
+    @include at-xsmall{
+      width: 50%;
+
+      h3{
+        display: none;
+      }
+    }
+
+    @include at-small{
+      width: 33.333333%;
+
+      h3{
+        display: none;
+      }
+    }
+
+    @include at-medium{
+      width: 25%;
+    }
+    @include at-large{
+      width: 20%;
+    }
+  }
+}
