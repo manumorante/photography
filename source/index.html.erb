@@ -1,0 +1,11 @@
+<div class="article-list">
+  <%= partial 'logo' %>
+  <% data.photos.each do |photo| %>
+    <%= partial 'article',
+                :locals => {
+                    :url => photo.url,
+                    :sentence => photo.sentence,
+                    :src => photo.src
+                } %>
+  <% end %>
+</div>
