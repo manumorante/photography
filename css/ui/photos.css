@@ -1,0 +1,49 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bv\/Documents\/projects\/photography\/source\/css\/ui\/photos\.scss}line{font-family:\000037}}
+.article-list {
+  display: block;
+  width: 100%;
+  font-size: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bv\/Documents\/projects\/photography\/source\/css\/ui\/photos\.scss}line{font-family:\0000312}}
+  .article-list article.photo {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    width: 100%;
+    height: auto;
+    opacity: .8;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bv\/Documents\/projects\/photography\/source\/css\/ui\/photos\.scss}line{font-family:\0000319}}
+    .article-list article.photo:hover {
+      opacity: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bv\/Documents\/projects\/photography\/source\/css\/ui\/photos\.scss}line{font-family:\0000323}}
+    .article-list article.photo h3 {
+      padding: 8% 10% 20% 10%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bv\/Documents\/projects\/photography\/source\/css\/ui\/photos\.scss}line{font-family:\0000327}}
+    .article-list article.photo img {
+      width: 100%; }
+    @media (min-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bv\/Documents\/projects\/photography\/source\/css\/ui\/photos\.scss}line{font-family:\0000312}}
+      .article-list article.photo {
+        width: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bv\/Documents\/projects\/photography\/source\/css\/ui\/photos\.scss}line{font-family:\0000334}}
+        .article-list article.photo h3 {
+          display: none; } }
+    @media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bv\/Documents\/projects\/photography\/source\/css\/ui\/photos\.scss}line{font-family:\0000312}}
+      .article-list article.photo {
+        width: 33.333333%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bv\/Documents\/projects\/photography\/source\/css\/ui\/photos\.scss}line{font-family:\0000342}}
+        .article-list article.photo h3 {
+          display: none; } }
+    @media (min-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bv\/Documents\/projects\/photography\/source\/css\/ui\/photos\.scss}line{font-family:\0000312}}
+      .article-list article.photo {
+        width: 25%; } }
+    @media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bv\/Documents\/projects\/photography\/source\/css\/ui\/photos\.scss}line{font-family:\0000312}}
+      .article-list article.photo {
+        width: 20%; } }
